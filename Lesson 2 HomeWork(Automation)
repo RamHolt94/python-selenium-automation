@@ -1,0 +1,54 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from time import sleep
+
+# get the path to the ChromeDriver executable
+driver_path = ChromeDriverManager().install()
+
+# create a new Chrome browser instance
+service = Service(driver_path)
+driver = webdriver.Chrome(service=service)
+driver.maximize_window()
+
+#open the url
+driver.get('https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F_encoding%3DUTF8%26ref_%3Dnav_em_hd_re_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&ref_%3Dnav_em_hd_clc_signin_0_1_1_57')
+sleep(10)
+#find the logo
+driver.find_element(By.XPATH, "//i[@class='a-icon a-icon-logo']")
+sleep(5)
+#find email field
+driver.find_element(By.XPATH, "//input[@type='email']")
+sleep(5)
+#find continue button
+driver.find_element(By.ID, "continue")
+sleep(5)
+#find condition of use button
+driver.find_element(By.XPATH, "//a[@class='a-link-normal']")
+sleep(5)
+#find conditions of use link
+driver.find_element(By.XPATH, "//a[@href='/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=508088']")
+sleep(5)
+#find privacy notice link
+driver.find_element(By.XPATH, "//a[@href='/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=468496']")
+sleep(5)
+#find need help link
+driver.find_element(By.XPATH, "//span[@class='a-expander-prompt']")
+sleep(5)
+#find forgot password link
+#N/A
+
+#find other issue with sign-in link
+#N/A
+
+#find create your amazon account button
+driver.find_element(By.ID, "createAccountSubmit")
+
+assert 'signin' in driver.current_url.lower(), f"Expected query not in {driver.current_url.lower()}"
+print('Test Passed')
+driver.quit()
+
+
+
+
