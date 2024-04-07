@@ -12,6 +12,7 @@ from time import sleep
 def find_sign_in(context):
     context.driver.find_element(By.CSS_SELECTOR, "[data-test='@web/AccountLink']").click()
 
+
 #find and click sign in on nav side bar
 @then('Click sign in on nav side bar')
 def click_sign_in(context):
