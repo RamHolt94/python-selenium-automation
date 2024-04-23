@@ -13,3 +13,21 @@ Feature: Check target cart
     Given Open Target main page
     When Click on the cart icon
     Then Verify the cart is empty
+
+
+  Scenario: User can find all benefit cells.
+    Given Open Target Circle page
+    When Count the benefit cells
+
+
+  Scenario: User can add product to cart and verify the the total price.
+    Given Open Target main page
+    When Click search bar
+    And Search for Brush
+    And Click search icon
+    Then Add product to cart
+    And Click second button to add
+    And Click view cart and check out
+    Then Find the $25.43
+
+

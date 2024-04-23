@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b7f0a58-8b02-4654-901a-7a48a155b23c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class_practice_file.html" beforeDir="false" afterPath="$PROJECT_DIR$/Class_practice_file.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class_practice_file.html" beforeDir="false" afterPath="$PROJECT_DIR$/img/Class_practice_file.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/environment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/steps/BDD that opens target.com.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/BDD that opens target.com.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/verify that a logged out user can navigate to Sign In.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/verify that a logged out user can navigate to Sign In.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/product_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/product_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/tests/Target_test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Target_test.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +48,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Behave.Target_test.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.Target_test.feature:User can add product to cart and verify the the total price..executor&quot;: &quot;Run&quot;,
+    &quot;Behave.Target_test.feature:User can find all benefit cells..executor&quot;: &quot;Run&quot;,
     &quot;Behave.product_search.feature.executor&quot;: &quot;Run&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.Class_practice_file.html.executor&quot;: &quot;Run&quot;,
@@ -62,14 +66,79 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.CSS&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rholt\PycharmProjects\pythonProject\img" />
       <recent name="C:\Users\rholt\PycharmProjects\pythonProject\features\steps" />
     </key>
+  </component>
+  <component name="RunManager" selected="Behave.Target_test.feature:User can add product to cart and verify the the total price.">
+    <configuration name="Target_test.feature:User can add product to cart and verify the the total price." type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Target_test.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="User can add product to cart and verify the the total price." />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Target_test.feature:User can find all benefit cells." type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Target_test.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="User can find all benefit cells." />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BDD that opens target.com" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/features/steps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/features/steps/BDD that opens target.com.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Behave.Target_test.feature:User can add product to cart and verify the the total price." />
+        <item itemvalue="Behave.Target_test.feature:User can find all benefit cells." />
+        <item itemvalue="Python.BDD that opens target.com" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -99,7 +168,18 @@
       <workItem from="1712279529762" duration="1093000" />
       <workItem from="1712326552531" duration="1435000" />
       <workItem from="1712418747728" duration="5072000" />
-      <workItem from="1712524492979" duration="4740000" />
+      <workItem from="1712524492979" duration="5595000" />
+      <workItem from="1712712472857" duration="2736000" />
+      <workItem from="1712882062670" duration="3800000" />
+      <workItem from="1712933281277" duration="1361000" />
+      <workItem from="1713229977382" duration="2980000" />
+      <workItem from="1713317137019" duration="2540000" />
+      <workItem from="1713359057250" duration="8400000" />
+      <workItem from="1713400989730" duration="4846000" />
+      <workItem from="1713443937841" duration="3943000" />
+      <workItem from="1713487199520" duration="598000" />
+      <workItem from="1713530828596" duration="2550000" />
+      <workItem from="1713834907747" duration="1790000" />
     </task>
     <servers />
   </component>
@@ -107,11 +187,13 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$sample_script.coverage" NAME="sample_script Coverage Results" MODIFIED="1711318245658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$sample_script.coverage" NAME="sample_script Coverage Results" MODIFIED="1713319006336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$Target_test_feature_User_can_add_product_to_cart_and_verify_the_the_total_price_.coverage" NAME="Target_test.feature:User can add product to cart and verify the the total price. Coverage Results" MODIFIED="1713836590821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/pythonProject$Create_Account_on_amazon_com.coverage" NAME="Create Account on amazon.com Coverage Results" MODIFIED="1712196356683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$verify_that_a_logged_out_user_can_navigate_to_Sign_In.coverage" NAME="verify that a logged out user can navigate to Sign In Coverage Results" MODIFIED="1712254951919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/pythonProject$product_search_feature.coverage" NAME="product_search.feature Coverage Results" MODIFIED="1711318528671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/pythonProject$BDD_that_opens_target_com.coverage" NAME="BDD that opens target.com Coverage Results" MODIFIED="1712254724055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
-    <SUITE FILE_PATH="coverage/pythonProject$Target_test_feature.coverage" NAME="Target_test.feature Coverage Results" MODIFIED="1712328198244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/pythonProject$BDD_that_opens_target_com.coverage" NAME="BDD that opens target.com Coverage Results" MODIFIED="1713230801297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
+    <SUITE FILE_PATH="coverage/pythonProject$Target_test_feature.coverage" NAME="Target_test.feature Coverage Results" MODIFIED="1713232098527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/pythonProject$Target_test_feature_User_can_find_all_benefit_cells_.coverage" NAME="Target_test.feature:User can find all benefit cells. Coverage Results" MODIFIED="1713317714828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
