@@ -19,9 +19,9 @@ driver.get('https://www.google.com/')
 search = driver.find_element(By.NAME, 'q')
 search.clear()
 search.send_keys('Cab')
-
+driver.implicitly_wait(10)
 # wait for 4 sec
-sleep(4)
+# sleep(4)
 
 # click search button
 driver.find_element(By.NAME, 'btnK').click()

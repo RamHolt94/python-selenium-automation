@@ -1,7 +1,9 @@
-from selenium.webdriver.common.by import By
 from behave import given, when, then
-
-from time import sleep
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 # open the url
@@ -10,36 +12,37 @@ def open_target(context):
     context.driver.get('https://www.target.com/')
 
 
-#find the cart icon and click
+# find the cart icon and click
 @when('Click on the cart icon')
 def click_on_icon(context):
-    context.driver.find_element(By.CSS_SELECTOR, "[data-test='@web/CartLink']").click()
+    element = WebDriverWait(context.driver, 10).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "[data-test='@web/CartLink']"))
+    )
+    element.click()
 
 
-#Verify the cart is empty
+# Verify the cart is empty
 @then('Verify the cart is empty')
 def verify_cart(context):
-    context.driver.find_element(By.CSS_SELECTOR, "[data-test='boxEmptyMsg']")
+    WebDriverWait(context.driver, 10).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, "[data-test='boxEmptyMsg']"))
+    )
 
 
-#Open target circle page
+# Open target circle page
 @given('Open Target Circle page')
 def open_target(context):
     context.driver.get('https://www.target.com/circle')
 
 
-
-
-
-#Find and count all target circle benefit cells
+# Find and count all target circle benefit cells
 @when('Count the benefit cells')
 def click_on_slingshot(context):
     result = len(context.driver.find_elements(By.CSS_SELECTOR, "div[class*='CellItemContainer']"))
     print(f"The amount of cells is {result}")
 
 
-
-#Click target search bar
+# Click target search bar
 @when('Click search bar')
 def click_search_bar(context):
     context.driver.find_element(By.CSS_SELECTOR, "[data-test='@web/Search/SearchInput']").click()
@@ -50,24 +53,17 @@ def search_for_product(context, product_name):
     context.driver.find_element(By.CSS_SELECTOR, "[data-test='@web/Search/SearchInput']").send_keys(product_name)
 
 
-sleep(4)
-
-
 @when('Click search icon')
 def click_search_icon(context):
-    context.driver.find_element(By.CSS_SELECTOR, "[data-test='@web/Search/SearchButton']").click()
-
-
-sleep(6)
+    element = WebDriverWait(context.driver, 10).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "[data-test='@web/Search/SearchButton']"))
+    )
+    element.click()
 
 
 @then('Add product to cart')
 def add_to_cart(context):
-    context.driver.find_element(By.CSS_SELECTOR,
-                                "[aria-label*='Add UNbrush Detangler Hair Brush']").click()
-
-
-sleep(6)
+    context.driver.find_element(By.CSS_SELECTOR, "[aria-label*='Add UNbrush Detangler Hair Brush']").click()
 
 
 @then('Click second button to add')
@@ -78,8 +74,6 @@ def click_second_button_add(context):
 @then('Click view cart and check out')
 def click_view_cart(context):
     context.driver.find_element(By.CSS_SELECTOR, "a[class*='StyledBaseButtonInternal']").click()
-
-sleep(4)
 
 
 @then('Find the {total}')
