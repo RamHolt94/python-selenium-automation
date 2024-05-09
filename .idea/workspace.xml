@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b7f0a58-8b02-4654-901a-7a48a155b23c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/features/steps/product_color_loop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/tests/Loop.through.product.colors.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/header.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/main_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/search_result_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/environment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/steps/BDD that opens target.com.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/BDD that opens target.com.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/verify that a logged out user can navigate to Sign In.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/verify that a logged out user can navigate to Sign In.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/tests/Target_test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Target_test.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,41 +49,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Behave.Loop.through.product.colors.feature:Create a loop to go over product colors.executor": "Run",
-    "Behave.Target_test.feature.executor": "Run",
-    "Behave.Target_test.feature:User can add product to cart and verify the the total price..executor": "Run",
-    "Behave.Target_test.feature:User can find all benefit cells..executor": "Run",
-    "Behave.Target_test.feature:User can verify sign in page.executor": "Run",
-    "Behave.Target_test.feature:User can verify that cart is empty.executor": "Run",
-    "Behave.product_search.feature.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.Class_practice_file.html.executor": "Run",
-    "Python.BDD that opens target.com.executor": "Run",
-    "Python.Create Account on amazon.com.executor": "Run",
-    "Python.sample_script.executor": "Run",
-    "Python.verify that a logged out user can navigate to Sign In.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/rholt/python-selenium-automation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.CSS",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Behave.Loop.through.product.colors.feature:Create a loop to go over product colors.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.Target_test.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.Target_test.feature:User can add product to cart and verify the the total price..executor&quot;: &quot;Run&quot;,
+    &quot;Behave.Target_test.feature:User can find all benefit cells..executor&quot;: &quot;Run&quot;,
+    &quot;Behave.Target_test.feature:User can verify sign in page.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.Target_test.feature:User can verify that cart is empty.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.product_search.feature.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Class_practice_file.html.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BDD that opens target.com.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Create Account on amazon.com.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sample_script.executor&quot;: &quot;Run&quot;,
+    &quot;Python.verify that a logged out user can navigate to Sign In.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rholt/python-selenium-automation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.CSS&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rholt\PycharmProjects\pythonProject\app" />
+      <recent name="C:\Users\rholt\PycharmProjects\pythonProject" />
       <recent name="C:\Users\rholt\PycharmProjects\pythonProject\img" />
       <recent name="C:\Users\rholt\PycharmProjects\pythonProject\features\steps" />
     </key>
   </component>
-  <component name="RunManager" selected="Behave.Loop.through.product.colors.feature:Create a loop to go over product colors">
+  <component name="RunManager" selected="Behave.Target_test.feature:User can add product to cart and verify the the total price.">
     <configuration name="Loop.through.product.colors.feature:Create a loop to go over product colors" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -162,10 +168,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Behave.Target_test.feature:User can add product to cart and verify the the total price." />
         <item itemvalue="Behave.Loop.through.product.colors.feature:Create a loop to go over product colors" />
         <item itemvalue="Behave.Target_test.feature:User can verify sign in page" />
         <item itemvalue="Behave.Target_test.feature:User can verify that cart is empty" />
-        <item itemvalue="Behave.Target_test.feature:User can add product to cart and verify the the total price." />
         <item itemvalue="Behave.Target_test.feature:User can find all benefit cells." />
       </list>
     </recent_temporary>
@@ -216,7 +222,10 @@
       <workItem from="1714698866162" duration="2788000" />
       <workItem from="1714741127481" duration="13061000" />
       <workItem from="1714842128795" duration="697000" />
-      <workItem from="1714946769697" duration="1697000" />
+      <workItem from="1714946769697" duration="2549000" />
+      <workItem from="1715044804056" duration="1121000" />
+      <workItem from="1715129358960" duration="5219000" />
+      <workItem from="1715217601706" duration="3891000" />
     </task>
     <servers />
   </component>
@@ -226,7 +235,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$sample_script.coverage" NAME="sample_script Coverage Results" MODIFIED="1714741600078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Loop_through_product_colors_feature_Create_a_loop_to_go_over_product_colors.coverage" NAME="Loop.through.product.colors.feature:Create a loop to go over product colors Coverage Results" MODIFIED="1714948467136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/pythonProject$Target_test_feature_User_can_add_product_to_cart_and_verify_the_the_total_price_.coverage" NAME="Target_test.feature:User can add product to cart and verify the the total price. Coverage Results" MODIFIED="1714162679759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/pythonProject$Target_test_feature_User_can_add_product_to_cart_and_verify_the_the_total_price_.coverage" NAME="Target_test.feature:User can add product to cart and verify the the total price. Coverage Results" MODIFIED="1715221478835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/pythonProject$Create_Account_on_amazon_com.coverage" NAME="Create Account on amazon.com Coverage Results" MODIFIED="1712196356683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$verify_that_a_logged_out_user_can_navigate_to_Sign_In.coverage" NAME="verify that a logged out user can navigate to Sign In Coverage Results" MODIFIED="1712254951919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/pythonProject$product_search_feature.coverage" NAME="product_search.feature Coverage Results" MODIFIED="1711318528671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

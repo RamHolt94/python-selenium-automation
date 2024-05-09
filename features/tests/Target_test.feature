@@ -23,7 +23,7 @@ Feature: Check target cart
   Scenario: User can add product to cart and verify the the total price.
     Given Open Target main page
     When Click search bar
-    And Search for Brush
+    And Search for UNbrush
     And Click search icon
     Then Add product to cart
     And Click second button to add
